@@ -11,7 +11,11 @@ public abstract class Document {
 
     @Override
     public String toString() {
+<<<<<<< HEAD
         String res = "bbbbbbbbbbb";
+=======
+        String res = "aaaaaaaaaaaaaaaaaaaaaa ";
+>>>>>>> newestBranch
         for (String cuvant : continut) {
             res += cuvant + " ";
         }
